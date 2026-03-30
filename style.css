@@ -1,0 +1,31 @@
+/* utilizzo box-sizing di tipo border-box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 512px;
+    border: 2px dotted red;
+}
+
+header h1{
+    margin: 10px;
+}
+
+hr {
+    border: 1.5px solid black ;
+}
+
+main section{
+    max-width: 452px;
+    min-height: 150px;
+    margin: 20px auto;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+footer section p {
+    margin: 15px;
+}
